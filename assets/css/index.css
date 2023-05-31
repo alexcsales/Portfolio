@@ -1,14 +1,15 @@
 .conteudo {
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 82px;
     height: 100vh;
-    padding: 0 11rem 0 11rem;
 }
 
 .conteudo-container {
     display: flex;
     flex-direction: column;
+    width: 615px;
     gap: 40px;
 }
 
@@ -68,22 +69,9 @@
     height: 550px;
 }
 
-@media screen and (max-width: 1500px) {
-    .conteudo {
-        padding: 0 5rem 0 5rem;
-    }
-}
-
-@media screen and (max-width: 1330px) {
-    .conteudo {
-        padding: 0 2rem 0 2rem;
-    }
-}
-
 @media screen and (max-width: 1200px) {
     .conteudo {
         flex-direction: column;
-        padding: 2rem;
     }
 
     .conteudo-container {
@@ -96,7 +84,7 @@
     }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 680px) {
     .conteudo-container-lista {
         flex-direction: column;
     }
