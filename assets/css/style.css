@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+@import url(index.css);
+
+:root {
+    --branco: #F6F6F6;
+    --azul-claro: #22D4FD;
+    --preto: #000000;
+    --fonte-titulo: Krona One;
+    --fonte-texto: Montserrat
+}
+
+body {
+    background-color: var(--preto);
+    color: var(--branco);
+    font-family: var(--fonte-texto);
+    font-weight: 400;
+}
