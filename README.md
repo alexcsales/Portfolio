@@ -1,4 +1,4 @@
-<h1 align="center">📌ALLRPG</h1>
+<h1 align="center">📌Portfolio-Figma</h1>
   <h3 align="center">📌Projeto de Figma: Portfolio criado seguindo do figma de um curso.@alura</h3>
 
   <h3>📄Tabela de conteúdos</h3>
