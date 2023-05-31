@@ -17,7 +17,7 @@
 
   <h3 id="features">⚙ Features</h3>
   <ul>
-    <li>[x]Conteúdo</li>
+    <li>[ x ]Conteúdo</li>
   </ul>
 
   <h1 id="preview" align="center">
