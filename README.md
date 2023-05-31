@@ -18,6 +18,7 @@
   <h3 id="features">⚙ Features</h3>
   <ul>
     <li>[ x ]Conteúdo</li>
+    <li>[ x ]Responsividade</li>
   </ul>
 
   <h1 id="preview" align="center">
