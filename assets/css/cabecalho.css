@@ -1,9 +1,5 @@
 .cabecalho {
-    display: flex;
-    align-items: center;
-    padding-top: 2rem;
-    justify-content: center;
-    padding: 67px;
+    padding: 2% 0% 0% 15%;
 }
 
 .cabecalho-navegacao-lista {
