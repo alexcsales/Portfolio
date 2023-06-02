@@ -33,7 +33,7 @@
   <pre>
     <code>
 # Clonar este repositório:
-$ git clone https://github.com/alexcsales/Portfolio-Curso
+$ git clone https://github.com/alexcsales/Portfolio
 # Executar arquivo:
 $ No navegador, pressione Ctrl + O e abra o arquivo index.html
     </code>
