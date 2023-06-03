@@ -1,0 +1,15 @@
+.rodape {
+    background-color: var(--azul-claro);
+    padding: 24px 0;
+}
+
+.rodape-texto {
+    color: var(--preto);
+    font-family: var(--fonte-texto);
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.rodape-texto-link {
+    color: var(--preto);
+}
