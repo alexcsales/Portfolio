@@ -7,13 +7,13 @@
 .conteudo-container {
     display: flex;
     flex-direction: column;
-    width: 615px;
+    width: 50%;
     gap: 40px;
 }
 
 .container-texto-principal {
     font-family: var(--fonte-titulo);
-    font-size: 36px;
+    font-size: 2.25rem;
     line-height: 56px;
 }
 
@@ -22,13 +22,14 @@
 }
 
 .container-texto-secundario {
-    font-size: 24px;
+    font-family: var(--fonte-texto);
+    font-size: 1.5rem;
     line-height: 36px;
 }
 
 .container-texto-lista {
     font-family: var(--fonte-titulo);
-    font-size: 24px;
+    font-size: 1.5rem;
     text-align: center;
 }
 
@@ -40,24 +41,19 @@
 }
 
 .conteudo-lista-item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background: var(--preto);
     border: 1px solid var(--azul-claro);
     border-radius: 16px;
-    width: 378px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
     height: 68px;
 }
 
 .conteudo-lista-item:hover {
-    opacity: 70%;
+    background-color: var(--hover-botao);
     cursor: pointer;
-}
-
-.conteudo-lista-item:active {
-    background: var(--preto);
-    border: 1px solid var(--azul-claro);
 }
 
 .conteudo-lista-link {
@@ -65,41 +61,28 @@
     align-items: center;
     gap: 16px;
     color: var(--azul-claro);
+    font-family: var(--fonte-texto);
+    font-size: 1.5rem;
     font-weight: 600;
-    font-size: 24px;
-}
-
-.conteudo-lista-item:active .conteudo-lista-link {
-    color: var(--azul-claro);
 }
 
 .conteudo-imagem {
-    width: 466px;
+    width: 50%;
     height: 526px;
 }
 
 @media screen and (max-width: 1200px) {
     .conteudo {
-        flex-direction: column;
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 5%;
     }
 
     .conteudo-container {
-        align-items: center;
-        text-align: center;
+        width: auto;
     }
 
     .conteudo-imagem {
-        width: fit-content;
-    }
-}
-
-@media screen and (max-width: 680px) {
-    .conteudo-container-lista {
-        flex-direction: column;
-    }
-
-    .conteudo {
-        flex-direction: column;
-        padding: 1rem;
+        width: auto;
     }
 }
