@@ -5,11 +5,18 @@
 .cabecalho-navegacao-lista {
     display: flex;
     gap: 80px;
-
 }
 
 .cabecalho-navegacao-link {
     color: var(--azul-claro);
-    font-size: 24px;
+    font-family: var(--fonte-texto);
+    font-size: 1.5rem;
     font-weight: 600;
+}
+
+@media screen and (max-width:1200px) {
+    .cabecalho {
+        padding: 5%;
+    }
+
 }
