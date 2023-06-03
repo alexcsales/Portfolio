@@ -2,11 +2,13 @@
 
 @import url(cabecalho.css);
 @import url(conteudo.css);
+@import url(rodape.css);
 
 :root {
     --branco: #F6F6F6;
     --azul-claro: #22D4FD;
     --preto: #000000;
+    --hover-botao: #272727;
     --fonte-titulo: Krona One;
     --fonte-texto: Montserrat
 }
@@ -16,6 +18,5 @@ body {
     height: 100vh;
     background-color: var(--preto);
     color: var(--branco);
-    font-family: var(--fonte-texto);
     font-weight: 400;
 }
